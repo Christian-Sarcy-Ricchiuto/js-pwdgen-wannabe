@@ -16,15 +16,15 @@ const resultElement = document.getElementById('result');
 console.log(resultElement);
 
 /* Fase di raccolta dati */
-const firstName = prompt('Qual\'è il tuo nome?', Christian);
-const lasttName = prompt('Qual\'è il tuo cognome?', Ricchiuto);
-const favColour = prompt('Qual\'è il tuo colore preferito?', Rosso);
-console.log()
+const firstName = prompt('Qual è il tuo nome?', 'Christian');
+const lastName = prompt('Qual è il tuo cognome?', 'Ricchiuto');
+const favColour = prompt('Qual è il tuo colore preferito?', 'Rosso');
+console.log(firstName, lastName, favColour);
 
 /* Operazione di generazione della password */
-const= firstName + lasttName + favColour + suffix;
+const password = firstName + lastName + favColour + suffix;
 console.log(password);
 
 /* Stampa "nomecognome21" */
-resultElement.innerText = 'La tua Password è' ${password};
+resultElement.innerText = `La tua Password è ${password}`;
 
