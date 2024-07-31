@@ -22,7 +22,7 @@ const favColour = prompt('Qual\'è il tuo colore preferito?', Rosso);
 console.log()
 
 /* Operazione di generazione della password */
-const = firstName + lasttName + favColour + suffix;
+const= firstName + lasttName + favColour + suffix;
 console.log(password);
 
 /* Stampa "nomecognome21" */
